@@ -7,24 +7,16 @@
 
 
 
-in this project, you are required to perform data profiling for a given dataset using Python. In the
-there are four worksheets:
-- COMPANY: firmographics
-- INVESTMENT: relevant investments received by the companies
-- ACQUISITION: relevant acquisitions the companies have
-- EMPLOYEE: relevant employees working in the companies
-To help you better understand the datasets, data dictionaries are given below.
+- In this dataset there are four worksheets:
+    - COMPANY: firmographics
+    - INVESTMENT: relevant investments received by the companies
+    - ACQUISITION: relevant acquisitions the companies have
+    - EMPLOYEE: relevant employees working in the companies
+
+- To help you better understand the datasets, data dictionaries are given below.
 
 
-
-Worksheet: EMPLOYEE
-Variable Comment
-EMPLOYEE_MD5 Hashed unique ID for employee
-JOB_TITLES Job titles
-COMPANY_NAME Company name
-ATTENDED_SCHOOLS Schools that the employee has attended
-
-- Worksheet: COMPANY
+- *Worksheet: COMPANY*
 
 |Variable|Comment |
 |--------------|------------|
@@ -37,7 +29,7 @@ CATEGORY| Industry category|
 |REVENUE_RANGE|Revenue range|
 |EMPLOYEE_NUMBER|The number of employees|
 
-- Worksheet: INVESTMENT
+- *Worksheet: INVESTMENT*
 
 |Variable|Comment |
 |--------------|------------|
@@ -48,7 +40,7 @@ CATEGORY| Industry category|
 |INVESTMENT_STAGE|The investment stage|
 
 
-- Worksheet: ACQUISITION
+- *Worksheet: ACQUISITION*
 
 |Variable|Comment|
 |--------------|------------|
@@ -60,7 +52,7 @@ CATEGORY| Industry category|
 
  
 
-- Worksheet: EMPLOYEE
+- *Worksheet: EMPLOYEE*
 
 |Variable|Comment|
 |--------------|------------|
